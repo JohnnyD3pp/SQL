@@ -4,6 +4,8 @@ Este repositório reúne exercícios, práticas e materiais de estudo em **SQL**
 
 Os arquivos foram desenvolvidos principalmente para uso com **MySQL** e **MySQL Workbench**, abordando desde comandos básicos até procedures, funções, cursores, agrupamentos e subqueries.
 
+As práticas utilizam principalmente os bancos de dados **Carloca** e **StoreMundi**.
+
 ## Conteúdos Abordados
 
 - Consultas SQL
@@ -24,12 +26,47 @@ Os arquivos foram desenvolvidos principalmente para uso com **MySQL** e **MySQL 
 
 ```text
 .
+├── Base Carloca/
+├── Base StoreMundi/
 ├── Dimensões SQL/
 ├── Exercícios de Classe/
 └── Programação em SQL/
 ```
 
 ## Descrição das Pastas
+
+### Base Carloca
+
+Contém os arquivos de criação, carga e modelagem do banco de dados **Carloca**.
+
+Arquivos principais:
+
+- `Cria_Carloca.txt`
+- `Carrega_Carloca.txt`
+- `Carloca_MySQL.mwb`
+- `carloca.png`
+
+Principais temas:
+
+- Criação da estrutura do banco
+- Carga de dados
+- Modelo físico no MySQL Workbench
+- Base utilizada em exercícios de consultas, agrupamentos, subqueries, funções, procedures e cursores
+
+### Base StoreMundi
+
+Contém os arquivos de criação/modelagem da base **StoreMundi**, utilizada principalmente nos scripts de construção de dimensões.
+
+Arquivos principais:
+
+- `Mundi.sql`
+- `StoreMundi.mwb`
+
+Principais temas:
+
+- Script SQL da base StoreMundi
+- Modelo do banco no MySQL Workbench
+- Base de origem para tabelas dimensionais
 
 ### Dimensões SQL
 
@@ -129,6 +166,11 @@ Arquivos `.docx` e `.txt` são materiais de apoio e documentação das aulas.
 ## Observação
 
 Alguns scripts dependem de bancos de dados específicos, como `storemundi` ou `carloca`. Antes de executar, confirme se as tabelas de origem existem no ambiente local.
+
+Para este repositório, os bancos utilizados são:
+
+- `carloca`
+- `storemundi`
 
 ## Objetivo do Repositório
 
